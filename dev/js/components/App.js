@@ -1,11 +1,11 @@
 import React from 'react';
  require('../../scss/style.scss');
 import AppBar from "material-ui/AppBar";
-import CardsExample from "./CardsExample";
+import Header from "./Header";
+import DialogExampleSimple from "./DialogExampleSimple";
 const App = () => (
     <div>
-      <AppBar title="My Project" showMenuIconButton = {false} />
-      <CardsExample />
+    <Header />
     </div>
 );
 
