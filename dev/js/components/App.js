@@ -3,9 +3,13 @@ import React from 'react';
 import AppBar from "material-ui/AppBar";
 import Header from "./Header";
 import DialogExampleSimple from "./DialogExampleSimple";
+import MainContent from "./MainContent";
 const App = () => (
     <div>
     <Header />
+    <div className="container">
+      <MainContent />
+    </div>
     </div>
 );
 

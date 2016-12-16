@@ -52,7 +52,7 @@ class Header extends Component {
     return (
       <div>
       <AppBar
-        title="oWallet"
+        title="My Project"
         showMenuIconButton = {false}
         style = {{backgroundColor : "#009688"}}
         iconElementRight={this.state.logged ? <Logged /> : <Login />}
